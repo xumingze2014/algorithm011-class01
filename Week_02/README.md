@@ -6,15 +6,23 @@ typora-copy-images-to: img
 
 ## 树
 
-![image-20200705222841758](D:\geek_learn\algorithm011-class01\Week_02\img\image-20200705222841758.png)
+![image-20200705222841758](https://github.com/xumingze2014/algorithm011-class01/blob/master/Week_02/img/image-20200705222841758.png?raw=true)
+
+
 
 ## 堆
 
-![image-20200705222724574](D:\geek_learn\algorithm011-class01\Week_02\img\image-20200705222724574.png)
+![image-20200705222724574](https://github.com/xumingze2014/algorithm011-class01/blob/master/Week_02/img/image-20200705222724574.png?raw=true)
+
+
+
+
 
 ## 图
 
-![image-20200705222803252](D:\geek_learn\algorithm011-class01\Week_02\img\image-20200705222803252.png)
+![image-20200705222803252](https://github.com/xumingze2014/algorithm011-class01/blob/master/Week_02/img/image-20200705222803252.png?raw=true)
+
+
 
 
 
