@@ -23,7 +23,9 @@ public void recur(int level, int param) {
 }
 ```
 
-![image-20200802212401547](D:\geek_learn\algorithm011-class01\Week_06\img\image-20200802212401547.png)
+![image-20200802212401547](https://github.com/xumingze2014/algorithm011-class01/blob/master/Week_06/img/image-20200802212401547.png?raw=true)
+
+
 
 ## 分治代码模板
 
