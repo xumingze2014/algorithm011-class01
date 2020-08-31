@@ -164,7 +164,7 @@ $$
 
 讲述完 DP 问题的解题思路后，我们来大致列举一下 DP 问题的类别。
 
-DP 问题主要分为两大类，第一大类是 DP 类型，第二大类是 DP 优化方法。![v2-21366d47656574b928749040c6cc1888_r](D:\geek_learn\algorithm011-class01\img\v2-21366d47656574b928749040c6cc1888_r.jpg)
+DP 问题主要分为两大类，第一大类是 DP 类型，第二大类是 DP 优化方法。![v2-21366d47656574b928749040c6cc1888_r](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/v2-21366d47656574b928749040c6cc1888_r.jpg)
 
 ## **总结**
 
@@ -258,17 +258,17 @@ public class KMP {
 
 从头比较，不一致，P向后移动一位
 
-![image-20200831223007362](D:\geek_learn\algorithm011-class01\img\image-20200831223007362.png)
+![image-20200831223007362](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831223007362.png?raw=true)
 
-![image-20200831223115047](D:\geek_learn\algorithm011-class01\img\image-20200831223115047.png)
+![image-20200831223115047](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831223115047.png?raw=true)
 
-![image-20200831223140507](D:\geek_learn\algorithm011-class01\img\image-20200831223140507.png)
+![image-20200831223140507](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831223140507.png?raw=true)
 
 这里我们通过三部找到了
 
-![image-20200831223711846](D:\geek_learn\algorithm011-class01\img\image-20200831223711846.png)
+![image-20200831223711846](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831223711846.png?raw=true)
 
-![image-20200831223741604](D:\geek_learn\algorithm011-class01\img\image-20200831223741604.png)
+![image-20200831223741604](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831223741604.png?raw=true)
 
 这里只需要两步
 
@@ -288,13 +288,13 @@ kmp算法里增加了next数组，使用next数组加速字符串匹配。
 
 我们观察以下字符串：
 
- ![image-20200831225107356](D:\geek_learn\algorithm011-class01\img\image-20200831225107356.png)
+ ![image-20200831225107356](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831225107356.png?raw=true)
 
-![image-20200831225140782](D:\geek_learn\algorithm011-class01\img\image-20200831225140782.png)
+![image-20200831225140782](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831225140782.png?raw=true)
 
 A很显然时0，没有长度为0的字符串了
 
-![image-20200831225301735](D:\geek_learn\algorithm011-class01\img\image-20200831225301735.png)
+![image-20200831225301735](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831225301735.png?raw=true)
 
 求AB的时候 ，因为之前的A已经确定了所以next[0] = 0
 
@@ -307,7 +307,7 @@ next[1] = ?
 3. P[next[i-1]] 等于 P[i]  next[i] = next[i-1] + 1
 4. P[next[i-1]] 不等于 P[i]  让 i = next[i-1] 重复 2 3 4 直到P[next[i-1]] 等于 P[i]或者找不到 next[i] = 0
 
-![image-20200831225750611](D:\geek_learn\algorithm011-class01\img\image-20200831225750611.png)
+![image-20200831225750611](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831225750611.png?raw=true)
 
 求next[4] 
 
@@ -319,7 +319,7 @@ next[1] = ?
 6. 循环终止
 7. next[4] = 0
 
-![image-20200831230203991](D:\geek_learn\algorithm011-class01\img\image-20200831230203991.png)
+![image-20200831230203991](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831230203991.png?raw=true)
 
 求解next[8]?
 
@@ -333,7 +333,7 @@ next[1] = ?
 
 于是最终的next就是
 
-![image-20200831230737329](D:\geek_learn\algorithm011-class01\img\image-20200831230737329.png)
+![image-20200831230737329](https://github.com/xumingze2014/algorithm011-class01/blob/master/img/image-20200831230737329.png?raw=true)
 
 
 
